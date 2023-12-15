@@ -1,0 +1,348 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 2rem auto;
+}
+
+.dashboard_lower1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlelink{
+    text-decoration: none;
+}
+
+.dashboard_lower
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-right: 1.5vw;
+    
+}
+
+.toernooien
+{
+    border: 3px solid RGB(238,186,48);
+    text-align: center;
+
+}
+
+.teams
+{
+    border: 3px solid RGB(238,186,48);
+    text-align: center;
+}
+.snitch
+{
+    grid-row: span 2;
+    border: 3px solid RGB(238,186,48);
+    width: 50%;
+    height: 50%;
+
+}
+
+.upcomingPage
+{
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming
+{
+    border: 3px solid RGB(238,186,48);
+    text-align: center;
+    width: 75%;
+    margin-right: 5%;
+    
+    
+}
+
+.upcoming p
+{
+    font-size: 30px;
+    font-style: italic;
+}
+
+header{
+    background-color: #0044ff;
+    color: #000000;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: minmax(185px, 1fr) minmax(auto, 960px) minmax(165px, 1fr);
+    grid-gap: 2rem;
+}
+
+nav{
+    min-width: 50%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .title{
+    font-family: inherit;
+    font-size: 2.25rem;
+    display: flex;
+    align-items: center;
+    color: #f0f0f0;
+}
+
+nav a{
+    color: #f0f0f0;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5%;
+}
+
+nav a.active{
+    color: #fffb00;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+img.logo{
+    max-height: 45px;
+    margin-left: 8px;
+}
+
+.table{
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.adminbutton{
+    float:right !important
+}
+
+.table th{
+    background-color: #0044ff;
+    color: whitesmoke;
+}
+
+.backtoevents{
+    color: #2862ff;
+}
+
+.deletevent{
+    color: red;
+}
+
+.editevent{
+    color: green;
+}
+
+.table th, .table td{
+    padding: .5em 1em;
+}
+
+.table tr:nth-child(odd) td
+{
+    background-color: #cedbff;
+}
+
+.table tr:hover td{
+    background-color: darkgrey;
+}
+
+label{
+    min-width: 160px;
+    display: inline-block;
+}
+
+.form-control{
+    min-width: 200px;
+}
+.eventcontrolbuttons{
+    color: blue !important;
+}
+.card{
+    background-color: #90aeff;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-auto-flow: dense;
+    grid-template-rows: auto;
+    grid-gap: 2%;
+  }
+  .ticketbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0044ff;
+    border-radius: 5px;
+    border: 2px solid #0044ff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ticketbutton:hover {
+    background-color: #2862ff;
+  }
+
+  .login-button {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+    margin-left: 110%;
+  }
+  .login-button:hover {
+    color: #fff;
+    background-color: #0044ff;
+  }
+ .between {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .createButton{
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(5, 5, 5);
+    transition: background-color 0.3s ease;
+    padding: 4px;
+  }
+  .createButton:hover {
+    color: #000000;
+    background-color: #22ff00;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .opslaanKnop{
+    font-size: medium;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #22ff00;
+    transition: background-color 0.3s ease;
+    padding: 4px;
+    width: 100%;
+  }
+  .opslaanKnop:hover {
+    color: #000000;
+    background-color: #22ff00;
+  }
+
+  .terugknop{
+    font-size: medium;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #0044ff;
+    transition: background-color 0.3s ease;
+    padding: 4px;
+    padding-left:5% ;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .terugknop:hover {
+    color: #ffffff;
+    background-color: #0044ff;
+  }
+
+  .deleteknop {
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+    transition: background-color 0.3s ease;
+    padding: 4px;
+    padding-left:5% ;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .deleteknop:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+  }
+
+  .editknop{
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #22ff00;
+    transition: background-color 0.3s ease;
+    padding: 4px;
+    padding-left:5% ;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .editknop:hover {
+    color: #ffffff;
+    background-color: #22ff00;
+  }
+
+  .oderknop{
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #22ff00;
+    transition: background-color 0.3s ease;
+    padding: 4px;
+    padding-left:5% ;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .oderknop:hover {
+    color: #ffffff;
+    background-color: #22ff00;
+  }
